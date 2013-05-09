@@ -287,9 +287,111 @@ a:focus {
 
 
 
+#groupPhoto .photo{
+    width:950px;
+    height:300px;
+    background: url('img/3a.jpg') no-repeat transparent;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform:    scale(0.8);
+    -ms-transform:     scale(0.8);
+    -o-transform:      scale(0.8);
+    transform:         scale(0.8);
+
+}
+
+#june.past {
+    -webkit-transition: 0.25s;
+    -moz-transition:    0.25s;
+    -ms-transition:     0.25s;
+    -o-transition:      0.25s;
+    transition:         0.25s;
+
+    color:transparent;
+}
+
+#june p {
+    font-size:32px;
+}
+
+
+#simulation.past{
+    -webkit-transition: 0.25s;
+    -moz-transition:    0.25s;
+    -ms-transition:     0.25s;
+    -o-transition:      0.25s;
+    transition:         0.25s;
+
+    color:transparent;
+}
+#simulation {
+    text-align:center;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style:     preserve-3d;
+    -o-transform-style:      preserve-3d;
+    transform-style:         preserve-3d;
+}
+
+#simulation p {
+    font-size:32px;
+}
+
+#simulation h1 {
+    margin-top:60px;
+    font-size:64px;
+
+    display: inline-block;
+    -webkit-transition: 0.25s;
+    -moz-transition:    0.25s;
+    -ms-transition:     0.25s;
+    -o-transition:      0.25s;
+    transition:         0.25s;
+
+      -webkit-transform: translateZ(40px);
+    -moz-transform:    translateZ(40px);
+    -ms-transform:     translateZ(40px);
+    -o-transform:      translateZ(40px);
+     transform:        translateZ(40px);
+
+
+}
+
+#ready.future{
+    color: transparent;
+
+}
+
+#ready p{
+    font-size:150px;
+}
 
 
 
+#creativity {
+    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+}
+
+#dynamism {
+    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+}
+
+#integrity {
+    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+}
+
+#confidence {
+    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+}
+
+#rigor {
+    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+}
+
+.values {
+    height:300px;
+}
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
