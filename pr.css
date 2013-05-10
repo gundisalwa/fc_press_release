@@ -363,8 +363,8 @@ a:focus {
 
 }
 
-#ready p{
-    font-size:150px;
+#ready h1{
+    font-size:110px;
 }
 
 
@@ -374,25 +374,38 @@ a:focus {
 }
 
 #dynamism {
-    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+    background: url('img/1-LT-Puro-by-IGTM-Edward-Hill.jpg') no-repeat transparent;
 }
 
 #integrity {
-    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+    background: url('img/1.jpg') no-repeat transparent;
 }
 
 #confidence {
-    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+    background: url('img/6.jpg') no-repeat transparent;
 }
 
 #rigor {
-    background: url('img/4-Events&Incentives.jpg') no-repeat transparent;
+    background: url('img/10.jpg') no-repeat transparent;
 }
 
 .values {
     height:300px;
 }
 
+.values p {
+
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.52) 1%, rgba(255,255,255,0.52) 31%, rgba(255,255,255,0.52) 86%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,rgba(255,255,255,0.52)), color-stop(31%,rgba(255,255,255,0.52)), color-stop(86%,rgba(255,255,255,0.52)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.52) 1%,rgba(255,255,255,0.52) 31%,rgba(255,255,255,0.52) 86%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.52) 1%,rgba(255,255,255,0.52) 31%,rgba(255,255,255,0.52) 86%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.52) 1%,rgba(255,255,255,0.52) 31%,rgba(255,255,255,0.52) 86%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,0.52) 1%,rgba(255,255,255,0.52) 31%,rgba(255,255,255,0.52) 86%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+display:inline-block;
+}
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
@@ -409,6 +422,10 @@ a:focus {
     -ms-transition:     0.25s;
     -o-transition:      0.25s;
     transition:         0.25s;
+}
+
+#broken p:first-child{
+    margin-bottom:60px;
 }
 
 /*
@@ -449,12 +466,28 @@ a:focus {
 /*
     ... and 'scaling' to scale down after another quarter of a second.
 */
-#broke.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
+
+#goal{
+    font-size:40px;
+}
+
+#goal b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+#goal.present b {
+        margin-top:20px;
+    margin-bottom:20px;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform:    scale(1.2);
+    -ms-transform:     scale(1.2);
+    -o-transform:      scale(1.2);
+    transform:         scale(1.2);
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
@@ -464,6 +497,35 @@ a:focus {
 }
 
 
+
+#team{
+    font-size:40px;
+}
+
+#team b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+#team.present b {
+    margin-top:20px;
+    margin-bottom:20px;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform:    scale(1.2);
+    -ms-transform:     scale(1.2);
+    -o-transform:      scale(1.2);
+    transform:         scale(1.2);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
 
 
 /*
