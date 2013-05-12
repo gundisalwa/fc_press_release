@@ -527,6 +527,32 @@ display:inline-block;
     transition-delay:         0.5s;
 }
 
+#contacts h2 {
+    display: block;
+    vertical-align: middle;
+    height:100px;
+    line-height:100px;
+    padding-bottom:55px;
+    position:relative;
+}
+
+#contacts .logo {
+    position:relative;
+    top:50px;
+    left: 100px;
+
+    display:inline-block;
+    height:100px;
+    width: 300px;
+    background: url('img/ptres_creative.png') no-repeat transparent;
+
+}
+
+#contacts p, 
+#contacts a {
+    font-size: 30px;
+}
+
 
 /*
     And the "it's in 3D" step again brings some 3D typography - just for fun.
